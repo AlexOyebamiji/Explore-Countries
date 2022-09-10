@@ -1,10 +1,9 @@
-import InputCountry from "./components/InputCountry";
-import DisplayCountry from "./components/DisplayCountry";
-
-import Header from "./components/pages/Header";
 import { useState, useEffect } from "react";
 import axios from "axios";
+import Header from "./components/pages/Header";
 import Spinner from "./components/Spinner";
+import InputCountry from "./components/InputCountry";
+import DisplayCountry from "./components/DisplayCountry";
 
 function App() {
   const [text, setText] = useState("");
